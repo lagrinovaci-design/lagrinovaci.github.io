@@ -1,1 +1,190 @@
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#12382a;background:#fff;line-height:1.6}.site-header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.97);backdrop-filter:blur(10px);display:flex;align-items:center;justify-content:space-between;padding:13px 5%;box-shadow:0 3px 18px rgba(0,0,0,.08)}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:#075d31}.brand-mark{font-size:38px}.brand strong{display:block;font-size:22px;line-height:1}.brand em,.footer-brand em{color:#ef7f19;font-style:normal}.brand small{display:block;font-size:10px;margin-top:4px;color:#4b675b}.nav{display:flex;align-items:center;gap:22px}.nav a{color:#173e30;text-decoration:none;font-weight:700;font-size:14px}.nav a:hover,.nav .active{color:#08783d}.nav .whatsapp{background:#08783d;color:#fff;padding:10px 16px;border-radius:30px}.menu-toggle{display:none;border:0;background:none;font-size:27px}.hero{min-height:650px;position:relative;display:flex;align-items:center;padding:80px 7%;background-image:url("hero-agriculture.png");background-size:cover;background-position:center}.hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,45,22,.82),rgba(0,55,27,.38),rgba(0,0,0,.05))}.hero-content{position:relative;color:white;max-width:700px}.eyebrow,.section-kicker{font-weight:800;color:#08783d}.hero .eyebrow{display:inline-block;background:#08783d;color:white;padding:6px 14px;border-radius:20px}.hero h1{font-size:56px;line-height:1.06;margin:18px 0}.hero h1 span{color:#a6ed48}.hero p{font-size:20px;max-width:600px}.motto{font-family:Georgia,serif;font-style:italic;font-size:28px;border-bottom:4px solid #f18b24;display:inline-block;padding-bottom:4px}.hero-actions{display:flex;gap:12px;margin-top:30px}.btn{display:inline-block;padding:13px 22px;border-radius:30px;text-decoration:none;font-weight:800}.btn.primary{background:#08783d;color:white}.btn.light{background:white;color:#075d31}.location-badge{position:absolute;right:6%;bottom:35px;background:#08783d;color:white;padding:15px 20px;border-radius:18px;font-weight:700}.section{padding:80px 7%}.soft{background:#f1f8f2}.section-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:60px;align-items:center}.section h2{font-size:38px;line-height:1.12;margin:12px 0 22px}.about p{max-width:720px}.vision-card{background:#eff8ed;padding:30px;border-radius:25px}.vision-card div{margin-bottom:20px}.vision-card b{color:#08783d;font-size:19px}.vision-card p{margin:5px 0}.section-heading{margin-bottom:35px}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{background:#fff;padding:25px;border-radius:20px;box-shadow:0 8px 25px rgba(0,60,30,.08)}.card-icon{font-size:38px}.card h3{margin:10px 0 6px}.card p{margin:0;color:#496257}.product-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}.product{min-height:150px;border-radius:20px;background:#f4f8f3;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:55px;box-shadow:inset 0 0 0 1px #e3eee3}.product span{font-size:16px;font-weight:800;margin-top:8px}.project{background:linear-gradient(110deg,#075c30,#0a8744);color:white}.project-inner{display:grid;grid-template-columns:1.4fr .8fr;gap:60px;align-items:center}.project .section-kicker{color:#b7f26a}.project h2{font-size:43px}.project-stats{display:grid;grid-template-columns:1fr;gap:12px}.project-stats div{background:rgba(255,255,255,.12);padding:20px;border-radius:18px}.project-stats strong{display:block;font-size:30px;color:#b7f26a}.project-stats span{display:block}.gallery-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:16px}.gallery-grid img,.gallery-placeholder{width:100%;height:260px;object-fit:cover;border-radius:20px}.gallery-placeholder{background:#eaf5e9;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:45px;color:#08783d}.gallery-placeholder span{font-size:17px;font-weight:800}.contact{background:#f5f8f4}.contact-box{display:grid;grid-template-columns:1fr 1fr;gap:40px;background:white;border-radius:28px;padding:45px;box-shadow:0 12px 35px rgba(0,50,25,.08)}.contact-details{display:flex;flex-direction:column;gap:14px;justify-content:center}.contact-details a,.contact-details span{color:#164b35;text-decoration:none;font-size:18px}.footer{background:#003d22;color:white;padding:50px 7% 20px}.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:50px}.footer-brand{font-size:28px;font-weight:900}.footer h3{margin-top:0}.footer a,.footer span{display:block;color:#dceee3;text-decoration:none;margin:7px 0}.copyright{border-top:1px solid rgba(255,255,255,.18);margin-top:35px;padding-top:18px;display:flex;justify-content:space-between;color:#bcd6c8;font-size:13px}@media(max-width:900px){.nav{display:none;position:absolute;left:0;right:0;top:74px;background:white;padding:20px;flex-direction:column;box-shadow:0 10px 20px rgba(0,0,0,.1)}.nav.open{display:flex}.menu-toggle{display:block}.hero h1{font-size:43px}.section-grid,.project-inner,.contact-box{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}.product-grid{grid-template-columns:repeat(2,1fr)}.gallery-grid{grid-template-columns:1fr}.location-badge{position:relative;right:auto;bottom:auto;margin-top:30px}.hero{flex-direction:column;align-items:flex-start}.footer-grid{grid-template-columns:1fr 1fr}.copyright{flex-direction:column;gap:8px}}@media(max-width:560px){.site-header{padding:10px 4%}.brand strong{font-size:18px}.brand small{font-size:8px}.hero{min-height:650px;padding:65px 6%}.hero h1{font-size:36px}.hero p{font-size:17px}.motto{font-size:22px}.hero-actions{flex-direction:column;align-items:flex-start}.section{padding:60px 6%}.section h2{font-size:31px}.cards,.footer-grid{grid-template-columns:1fr}.contact-box{padding:28px}.product-grid{grid-template-columns:1fr 1fr}.copyright{font-size:12px}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#12382a;background:#fff;line-height:1.6}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;display:block}
+
+.site-header{
+  position:sticky;top:0;z-index:1000;
+    display:flex;align-items:center;justify-content:space-between;
+      padding:14px 6%;background:#fff;
+        box-shadow:0 2px 15px rgba(0,0,0,.08)
+        }
+        .brand{display:flex;align-items:center;gap:10px}
+        .brand-mark{font-size:30px}
+        .brand strong{display:block;font-size:22px;color:#08783d}
+        .brand strong em{font-style:normal;color:#d89416}
+        .brand small{display:block;font-size:9px;color:#68756e}
+        .nav{display:flex;align-items:center;gap:20px}
+        .nav a{font-weight:600;font-size:14px;color:#234438}
+        .nav a:hover,.nav a.active{color:#08783d}
+        .nav .whatsapp{background:#08783d;color:#fff;padding:9px 14px;border-radius:25px}
+        .menu-toggle{
+          display:none;border:0;background:#08783d;color:#fff;
+            font-size:24px;border-radius:7px;padding:5px 10px
+            }
+
+            .hero{
+              min-height:680px;position:relative;
+                display:flex;align-items:center;
+                  padding:80px 7%;
+                    background:url("hero-agriculture.png") center/cover no-repeat
+                    }
+                    .hero-overlay{
+                      position:absolute;inset:0;
+                        background:linear-gradient(90deg,rgba(0,45,20,.82),rgba(0,45,20,.35),rgba(0,0,0,.15))
+                        }
+                        .hero-content{position:relative;z-index:2;color:#fff;max-width:720px}
+                        .eyebrow{font-weight:bold;letter-spacing:2px}
+                        .hero h1{font-size:56px;line-height:1.08;margin:18px 0}
+                        .hero h1 span{color:#b8e36b}
+                        .hero p{font-size:20px;max-width:620px}
+                        .motto{font-family:Georgia,serif;font-style:italic;font-size:28px;margin-top:18px}
+                        .hero-actions{display:flex;gap:12px;margin-top:30px;flex-wrap:wrap}
+                        .btn{display:inline-block;padding:13px 20px;border-radius:8px;font-weight:bold}
+                        .btn.primary{background:#08783d;color:#fff}
+                        .btn.light{background:#fff;color:#08783d}
+                        .location-badge{
+                          position:absolute;right:6%;bottom:30px;z-index:3;
+                            background:rgba(255,255,255,.94);padding:10px 15px;
+                              border-radius:25px;font-size:13px;color:#12382a
+                              }
+
+                              .section{padding:80px 7%}
+                              .section.soft{background:#f3f8f4}
+                              .section-grid,.project-inner,.contact-box{
+                                display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center
+                                }
+                                .section-kicker{color:#08783d;font-weight:bold}
+                                .section h2{font-size:38px;line-height:1.15;margin:12px 0 20px}
+                                .vision-card{
+                                  background:#f3f8f4;border-radius:18px;padding:28px;
+                                    box-shadow:0 10px 30px rgba(0,0,0,.06)
+                                    }
+                                    .vision-card div{margin-bottom:20px}
+                                    .vision-card div:last-child{margin-bottom:0}
+                                    .vision-card b{font-size:18px;color:#08783d}
+
+                                    .section-heading{text-align:center;max-width:750px;margin:0 auto 35px}
+                                    .cards{
+                                      display:grid;grid-template-columns:repeat(4,1fr);gap:20px
+                                      }
+                                      .card{
+                                        background:#fff;padding:25px;border-radius:16px;
+                                          box-shadow:0 8px 25px rgba(0,0,0,.07)
+                                          }
+                                          .card-icon{font-size:38px}
+                                          .card h3{margin:12px 0 8px;color:#08783d}
+
+                                          .product-grid{
+                                            display:grid;grid-template-columns:repeat(5,1fr);gap:18px
+                                            }
+                                            .product{
+                                              min-height:130px;border:1px solid #e1ebe4;border-radius:15px;
+                                                display:flex;flex-direction:column;align-items:center;
+                                                  justify-content:center;gap:8px;font-size:40px
+                                                  }
+                                                  .product span{font-size:16px;font-weight:bold}
+
+                                                  .project{background:#08783d;color:#fff}
+                                                  .project .section-kicker{color:#b8e36b}
+                                                  .project-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+                                                  .project-stats div{
+                                                    background:rgba(255,255,255,.12);padding:22px;
+                                                      border-radius:14px;text-align:center
+                                                      }
+                                                      .project-stats strong{display:block;font-size:28px}
+                                                      .project-stats span{font-size:13px}
+
+                                                      .gallery-grid{
+                                                        display:grid;grid-template-columns:2fr 1fr 1fr;gap:18px
+                                                        }
+                                                        .gallery-grid img,.gallery-placeholder{
+                                                          width:100%;height:250px;object-fit:cover;border-radius:15px
+                                                          }
+                                                          .gallery-placeholder{
+                                                            background:#eaf4ed;display:flex;align-items:center;
+                                                              justify-content:center;flex-direction:column;font-size:40px
+                                                              }
+                                                              .gallery-placeholder span{font-size:15px;font-weight:bold}
+
+                                                              .contact{background:#f3f8f4}
+                                                              .contact-box{
+                                                                background:#fff;padding:40px;border-radius:20px;
+                                                                  box-shadow:0 10px 30px rgba(0,0,0,.07)
+                                                                  }
+                                                                  .contact-details{display:flex;flex-direction:column;gap:15px}
+                                                                  .contact-details a{color:#08783d;font-weight:bold}
+
+                                                                  .footer{background:#10291f;color:#fff;padding:55px 7% 20px}
+                                                                  .footer-grid{
+                                                                    display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px
+                                                                    }
+                                                                    .footer-brand{font-size:25px;font-weight:bold}
+                                                                    .footer-brand em{color:#d89416;font-style:normal}
+                                                                    .footer h3{margin-top:0}
+                                                                    .footer a,.footer span{display:block;margin:7px 0;color:#d9e5de}
+                                                                    .copyright{
+                                                                      border-top:1px solid rgba(255,255,255,.15);
+                                                                        margin-top:35px;padding-top:20px;
+                                                                          display:flex;justify-content:space-between;gap:15px;
+                                                                            font-size:13px;color:#b9c8c0
+                                                                            }
+
+                                                                            @media(max-width:900px){
+                                                                              .menu-toggle{display:block}
+                                                                                .nav{
+                                                                                    display:none;position:absolute;top:100%;left:0;right:0;
+                                                                                        background:#fff;padding:15px 6%;
+                                                                                            flex-direction:column;align-items:stretch;
+                                                                                                box-shadow:0 10px 20px rgba(0,0,0,.12)
+                                                                                                  }
+                                                                                                    .nav.open{display:flex}
+                                                                                                      .nav a{padding:8px 0}
+                                                                                                        .hero{min-height:620px;padding:70px 6%}
+                                                                                                          .hero h1{font-size:43px}
+                                                                                                            .section-grid,.project-inner,.contact-box{grid-template-columns:1fr}
+                                                                                                              .cards{grid-template-columns:1fr 1fr}
+                                                                                                                .product-grid{grid-template-columns:repeat(2,1fr)}
+                                                                                                                  .gallery-grid{grid-template-columns:1fr 1fr}
+                                                                                                                    .gallery-grid img{grid-column:1/-1}
+                                                                                                                      .footer-grid{grid-template-columns:1fr 1fr}
+                                                                                                                      }
+
+                                                                                                                      @media(max-width:560px){
+                                                                                                                        .site-header{padding:10px 5%}
+                                                                                                                          .brand strong{font-size:18px}
+                                                                                                                            .brand small{font-size:8px}
+                                                                                                                              .brand-mark{font-size:25px}
+
+                                                                                                                                .hero{
+                                                                                                                                    min-height:650px;
+                                                                                                                                        padding:70px 6% 110px;
+                                                                                                                                            background-position:center
+                                                                                                                                              }
+                                                                                                                                                .hero-overlay{
+                                                                                                                                                    background:rgba(0,45,20,.68)
+                                                                                                                                                      }
+                                                                                                                                                        .hero h1{font-size:34px;margin:14px 0}
+                                                                                                                                                          .hero p{font-size:17px}
+                                                                                                                                                            .motto{font-size:22px}
+                                                                                                                                                              .hero-actions{flex-direction:column;align-items:stretch}
+                                                                                                                                                                .hero-actions .btn{text-align:center}
+                                                                                                                                                                  .location-badge{
+                                                                                                                                                                      left:6%;right:6%;bottom:25px;
+                                                                                                                                                                          text-align:center;font-size:12px
+                                                                                                                                                                            }
+
+                                                                                                                                                                              .section{padding:55px 6%}
+                                                                                                                                                                                .section h2{font-size:30px}
+                                                                                                                                                                                  .cards{grid-template-columns:1fr}
+                                                                                                                                                                                    .product-grid{grid-template-columns:1fr 1fr}
+                                                                                                                                                                                      .gallery-grid{grid-template-columns:1fr}
+                                                                                                                                                                                        .gallery-grid img{grid-column:auto}
+                                                                                                                                                                                          .gallery-grid img,.gallery-placeholder{height:220px}
+
+                                                                                                                                                                                            .project-stats{grid-template-columns:1fr}
+                                                                                                                                                                                              .contact-box{padding:25px}
+                                                                                                                                                                                                .footer-grid{grid-template-columns:1fr}
+                                                                                                                                                                                                  .copyright{flex-direction:column}
+                                                                                                                                                                                                  }
